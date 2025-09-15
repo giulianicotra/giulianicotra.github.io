@@ -1,0 +1,41 @@
+name: Deploy Next.js to GitHub Pages
+
+permissions:
+  contents: write
+
+on:
+  push:
+    branches:
+      - main  # ogni push su main triggera il deploy
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Clona il repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2. Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'  # usa la versione del tuo progetto
+
+      # 3. Installa le dipendenze
+      - name: Install dependencies
+        run: npm ci
+
+      # 4. Build e Export
+      - name: Build and export Next.js site
+        run: npm run deploy
+        # Assicurati che 'deploy' script in package.json faccia: "next build && next export"
+
+      # 5. Pubblica su GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4.0.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages   # branch su cui pubblicare
+          publish_dir: ./out         # cartella generata da 'next export'
