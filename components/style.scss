@@ -92,10 +92,10 @@ html, body {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('/grain.png'); // o un data URI/SVG noise
+    background-image: url('/grain.webp'); // o un data URI/SVG noise
     background-repeat: repeat;
     opacity: 0.07; // regola l’intensità
-    mix-blend-mode: overlay; // puoi provare anche soft-light, multiply
+    mix-blend-mode: multiply; // puoi provare anche soft-light, multiply
     pointer-events: none; // non blocca interazioni
     z-index: 2; // sopra le sfere, sotto il testo
   }

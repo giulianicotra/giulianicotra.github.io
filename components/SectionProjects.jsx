@@ -30,23 +30,23 @@ export default function SectionProjects() {
   const neonColor = "rgb(18, 113, 255)";
 
   const arkeSlides = [
-    { type: "image", src: "/ar/1.jpg", duration: 5000 },
-    { type: "image", src: "/ar/2.jpg", duration: 5000 },
-    { type: "image", src: "/ar/3.png", duration: 5000 },
-    { type: "image", src: "/ar/4.png", duration: 5000 },
-    { type: "image", src: "/ar/5.jpg", duration: 5000 },
-    { type: "image", src: "/ar/6.jpg", duration: 5000 },
-    { type: "image", src: "/ar/7.jpg", duration: 5000 },
-    { type: "image", src: "/ar/8.jpg", duration: 5000 },
+    { type: "image", src: "/ar/1.webp", duration: 5000 },
+    { type: "image", src: "/ar/2.webp", duration: 5000 },
+    { type: "image", src: "/ar/3.webp", duration: 5000 },
+    { type: "image", src: "/ar/4.webp", duration: 5000 },
+    { type: "image", src: "/ar/5.webp", duration: 5000 },
+    { type: "image", src: "/ar/6.webp", duration: 5000 },
+    { type: "image", src: "/ar/7.webp", duration: 5000 },
+    { type: "image", src: "/ar/8.webp", duration: 5000 },
   ];
 
   const oltreSlides = [
-    { type: "image", src: "/oltre/image00003.png", duration: 5000 },
-    { type: "image", src: "/oltre/image00011.jpeg", duration: 5000 },
-    { type: "image", src: "/oltre/Immagine%202024-06-26%20141106.png", duration: 5000 },
-    { type: "image", src: "/oltre/000463590021.jpg", duration: 5000 },
-    { type: "image", src: "/oltre/100_0738.JPG", duration: 5000 },
-    { type: "image", src: "/oltre/000463590026.jpg", duration: 5000 },
+    { type: "image", src: "/oltre/image00003.webp", duration: 5000 },
+    { type: "image", src: "/oltre/image00011.webp", duration: 5000 },
+    { type: "image", src: "/oltre/screen.webp", duration: 5000 },
+    { type: "image", src: "/oltre/000463590021.webp", duration: 5000 },
+    { type: "image", src: "/oltre/100_0738.webp", duration: 5000 },
+    { type: "image", src: "/oltre/000463590026.webp", duration: 5000 },
   ];
 
   // -------------------------
@@ -190,7 +190,7 @@ export default function SectionProjects() {
         <div className="relative w-full max-w-xl aspect-[9/16] rounded-sm mx-auto overflow-hidden bg-neutral-800 cursor-pointer">
           <video
             ref={teaserRef}
-            src={"/oltre/oltreteaser_short_mobile.mp4"}
+            src={"/oltre/oltreteaser.mp4"}
             className="absolute top-1/2 left-1/2 w-full h-full max-w-full max-h-full object-cover -translate-x-1/2 -translate-y-1/2"
             muted
             playsInline
@@ -239,21 +239,25 @@ export default function SectionProjects() {
             {/* ReCa(be)ria */}
             <div className="project-item flex flex-col items-center justify-center p-6 text-center">
               <h3 className="text-2xl font-medium mb-1">{t("projects.othproj1.title")}</h3>
-              <h4 className="text-sm text-white/60 mb-2">{t("projects.othproj1.subtitle")}</h4>
+              <h4 className="text-sm text-white/60 mb-2">{t("projects.othproj1.subtitle1")}</h4>
+              <h4 className="text-sm text-white/60 mb-2">{t("projects.othproj1.subtitle2")}</h4>
               <p className="text-sm text-white/80">{t("projects.othproj1.description")}</p>
             </div>
 
             {/* Addiction */}
             <div className="project-item flex flex-col items-center justify-center p-6 text-center">
               <h3 className="text-2xl font-medium mb-1">Addiction</h3>
-              <h4 className="text-sm text-white/60 mb-2">{t("projects.othproj2.subtitle")}</h4>
+              <h4 className="text-sm text-white/60 mb-2">{t("projects.othproj2.subtitle1")}</h4>
+              <h4 className="text-sm text-white/60 mb-2">{t("projects.othproj2.subtitle2")}</h4>
+              <h4 className="text-sm text-white/60 mb-2">{t("projects.othproj2.subtitle3")}</h4>
               <p className="text-sm text-white/80">{t("projects.othproj2.description")}</p>
             </div>
 
             {/* Argerich */}
             <div className="project-item flex flex-col items-center justify-center p-6 text-center">
               <h3 className="text-2xl font-medium mb-1">Argerich</h3>
-              <h4 className="text-sm text-white/60 mb-2">{t("projects.othproj3.subtitle")}</h4>
+              <h4 className="text-sm text-white/60 mb-2">{t("projects.othproj3.subtitle1")}</h4>
+              <h4 className="text-sm text-white/60 mb-2">{t("projects.othproj3.subtitle2")}</h4>
               <p className="text-sm text-white/80" dangerouslySetInnerHTML={{ __html: t("projects.othproj3.description") }}></p>
             </div>
 

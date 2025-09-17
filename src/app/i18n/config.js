@@ -46,15 +46,19 @@ i18n
             },
             othproj1: {
               title: "Re-Ca(be)ria",
-              subtitle: "2024.\nSoftware: TouchDesigner.",
+              subtitle1: "2024",
+              subtitle2: "Software: TouchDesigner.",
               description: "The project, created with two other students from the University of Turin, is a VR reinterpretation of Cabiria (1914), transforming the third chapter into an interactive 3D experience with motion-tracked environments, avatars, and soundscapes."
             },
             othproj2: {
-              subtitle: "2023.\nSoftware: Adobe Premiere Pro, Adobe After Effects, Audacity. \nProject by: Giulia Nicotra, Carolina Bonomi, Roberta Camanni.",
+              subtitle1: "2023",
+              subtitle2: "Software: Adobe Premiere Pro, Adobe After Effects, Audacity.",
+              subtitle3: "Project by Giulia Nicotra, Carolina Bonomi, Roberta Camanni.",
               description: "A stop-motion video art project that investigates social alienation and technological dependence, featuring a protagonist whose environment becomes increasingly autonomous, leading her to a surreal crescendo of self-annihilation.",
             },
             othproj3: {
-              subtitle: "2023.\nSoftware: Adobe Premiere Pro, Adobe After Effects, Adobe Photoshop.",
+              subtitle1: "2023",
+              subtitle2: "Software: Adobe Premiere Pro, Adobe After Effects, Adobe Photoshop.",
               description: "<em>Argerich</em> is the music video for the electropop song by Valentina Marcellino. The concept is inspired by the lyrics: plants as a symbol of escape and self-discovery. The video combines live footage with digital animations and archival materials, creating a hybrid and surreal visual universe."
             }
           },
@@ -103,15 +107,19 @@ i18n
             },
             othproj1: {
               title: "Re-Ca(be)ria",
-              subtitle: "2024.\nSoftware: TouchDesigner.",
+              subtitle1: "2024",
+              subtitle2: "Software: TouchDesigner.",
               description: "Il progetto, realizzato con altri due studenti dell'Università di Torino, è una reinterpretazione in VR di Cabiria (1914), che trasforma il terzo capitolo in un’esperienza 3D interattiva con ambienti tracciati dal movimento, avatar e paesaggi sonori."
             },
             othproj2: {
-              subtitle: "2023.\nSoftware: Adobe Premiere Pro, Adobe After Effects, Audacity. \nProgetto a cura di: Giulia Nicotra, Carolina Bonomi, Roberta Camanni.",
+              subtitle1: "2023",
+              subtitle2: "Software: Adobe Premiere Pro, Adobe After Effects, Audacity.",
+              subtitle3: "Progetto a cura di Giulia Nicotra, Carolina Bonomi, Roberta Camanni.",
               description: "Un progetto video artistico in stop-motion che indaga l’alienazione sociale e la dipendenza tecnologica, con una protagonista il cui ambiente diventa sempre più autonomo, conducendola a un crescendo surreale di auto-annientamento."
             },
             othproj3: {
-              subtitle: "2023. \nSoftware: Adobe Premiere Pro, Adobe After Effects, Adobe Photoshop.",
+              subtitle1: "2023",
+              subtitle2: "Software: Adobe Premiere Pro, Adobe After Effects, Adobe Photoshop.",
               description: "<em>Argerich</em> è il videoclip musicale del brano elettropop di Valentina Marcellino. Il concept prende spunto dal testo: le piante come simbolo di fuga e auto-scoperta. Il video unisce riprese live con animazioni digitali e materiali d'archivio, creando un universo visivo ibrido e surreale."
             }
           },

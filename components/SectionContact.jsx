@@ -120,7 +120,7 @@ export default function SectionContact() {
       <div className="relative w-full max-w-sm aspect-video bg-neutral-900 border-neutral-700 flex items-center justify-center overflow-hidden">
         <video
           ref={videoRef}
-          src={isMobile ? "/main_mobile.mp4" : "/main.mp4"}
+          src={"/main.mp4"}
           muted
           playsInline
           autoPlay={!isMobile}

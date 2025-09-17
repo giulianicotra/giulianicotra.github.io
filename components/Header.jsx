@@ -18,7 +18,7 @@ export default function Header() {
         <div className="absolute left-8 top-1/2 -translate-y-1/2 flex items-center gap-2">
           <a href="/">
             <img
-              src="/logo_orizzontale_b.png"
+              src="/logo_orizzontale_b-small.webp"
               alt="NICO logo"
               className="w-16 h-auto mix-blend-difference"
             />

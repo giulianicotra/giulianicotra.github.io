@@ -2,7 +2,6 @@
 import { useRef, useEffect } from "react";
 import "./style.scss";
 
-
 export default function Hero() {
   useEffect(() => {
     // Aggiungi un riferimento al contenitore del gradiente
@@ -83,7 +82,7 @@ export default function Hero() {
           {/* Logo centrale con effetto neon ridotto e senza grassetto */}
         <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
           <img
-            src="/nico_eff_w.png"
+            src="/nico_eff_w-small.webp"
             alt="NICO Logo"
             className="w-[30vw] max-w-[400px] opacity-90 select-none pointer-events-none"
             style={{
