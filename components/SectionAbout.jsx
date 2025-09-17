@@ -63,10 +63,11 @@ export default function SectionAbout() {
           className="w-80 h-80 bg-gray-300 flex items-center justify-center -mt-7 rounded-md shadow-lg relative mb-2 about-img"
           style={{ border: "0px solid #222", boxShadow: "0 8px 32px rgba(0,0,0,0.25)", zIndex: 20 }}
         >
-          <svg width="120" height="120" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="12" cy="8" r="4" fill="#e5e5e5" />
-            <rect x="4" y="14" width="16" height="6" rx="3" fill="#e5e5e5" />
-          </svg>
+          <img 
+            src="/008.webp" 
+            alt="Foto" 
+            className="w-full h-full object-cover rounded-md" 
+          />
         </div>
 
         {/* Testo */}
