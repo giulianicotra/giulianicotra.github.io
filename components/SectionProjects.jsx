@@ -43,7 +43,7 @@ export default function SectionProjects() {
   const oltreSlides = [
     { type: "image", src: "/oltre/image00003.png", duration: 5000 },
     { type: "image", src: "/oltre/image00011.jpeg", duration: 5000 },
-    { type: "image", src: "/oltre/Immagine 2024-06-26 141106.png", duration: 5000 },
+    { type: "image", src: "/oltre/Immagine%202024-06-26%20141106.png", duration: 5000 },
     { type: "image", src: "/oltre/000463590021.jpg", duration: 5000 },
     { type: "image", src: "/oltre/100_0738.JPG", duration: 5000 },
     { type: "image", src: "/oltre/000463590026.jpg", duration: 5000 },

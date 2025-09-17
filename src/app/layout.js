@@ -1,6 +1,7 @@
-import "./globals.css"; // Tailwind + styles globali
+import "./globals.css";
 import "@/app/i18n/config";
 import Header from "../../components/Header";
+import FirefoxClassWrapper from "../../components/FirefoxClassWrapper";
 
 export default function RootLayout({ children }) {
   return (
@@ -9,8 +10,10 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body>
-        <Header />   {/* Navbar + LanguageSwitcher */}
-        {children}   {/* Contenuto di page.js */}
+        <FirefoxClassWrapper>
+          <Header />
+          {children}
+        </FirefoxClassWrapper>
       </body>
     </html>
   );

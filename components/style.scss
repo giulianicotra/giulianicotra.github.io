@@ -113,6 +113,8 @@ html, body {
     filter: url(#goo) blur(20px) ;
     width: 100%;
     height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
   }
 
   .g1 {
@@ -245,6 +247,10 @@ html, body {
   animation: pulse-custom 2s infinite;
 }
 
+.hidden-initially {
+  display: none;
+}
+
 /* Stile specifico per Firefox */
 body.is-firefox {
   .gradients-container {
@@ -259,3 +265,4 @@ body.is-firefox {
     filter: blur(120px);
   }
 }
+

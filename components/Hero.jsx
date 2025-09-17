@@ -5,8 +5,20 @@ import "./style.scss";
 
 export default function Hero() {
   useEffect(() => {
+    // Aggiungi un riferimento al contenitore del gradiente
+    const gradientsContainer = document.querySelector(".gradients-container");
+
+    if (gradientsContainer) {
+      gradientsContainer.classList.remove("hidden-initially");
+    }
+
     if (navigator.userAgent.toLowerCase().includes("firefox")) {
       document.body.classList.add("is-firefox");
+    }
+
+    // Rimuovi la classe che nasconde l'elemento dopo il controllo
+    if (gradientsContainer) {
+      gradientsContainer.style.opacity = '1';
     }
 
     let curX = 0, curY = 0;
@@ -57,7 +69,7 @@ export default function Hero() {
           </defs>
         </svg>
 
-        <div className="gradients-container">
+        <div className="gradients-container hidden-initially">
           <div className="g1"></div>
           <div className="g2"></div>
           <div className="g3"></div>
@@ -67,7 +79,7 @@ export default function Hero() {
         </div>
       </div>
 
-      
+
           {/* Logo centrale con effetto neon ridotto e senza grassetto */}
         <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
           <img
